@@ -1,7 +1,11 @@
 
 #Install
 ``` shell
-$ npm install mask-sensitive-words
+//npm
+$ npm install mask-sensitive-words --save
+
+//yarn
+yarn add mask-sensitive-words
 ```
 #Examples
 
