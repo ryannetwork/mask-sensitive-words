@@ -1,13 +1,17 @@
 #Examples
 
-``` Shell
+``` shell
 $ npm install mask-sensitive-words
 ```
 
-``` Javascript
+``` javascript
 const {maskSensitiveWords} = require('mask-sensitive-words');
 
-console.log(maskSen;sitiveWords('The name of Scorpio will be Microsoft XBOXTWO. XBOXTWO will be released soon', ['XBOXTWO']));
+
+const sentence = 'The name of Scorpio will be Microsoft XBOXTWO. XBOXTWO will be released soon';
+const words2Mask = ['XBOXTWO','Scorpio']
+const maskedSentence = maskSensitiveWords(sentence, words2Mask)
+console.log(maskedSentence);
 //The name of Scorpio will be Microsoft ***. *** will be released soon
 
 ```
