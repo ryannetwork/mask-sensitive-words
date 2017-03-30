@@ -1,0 +1,35 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add --dev babel-cli
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.19.1
+
+Node version: 
+  7.5.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "simple-npm-repo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": {},
+    "author": "Snoweel Pereira <Snoweel.Pereira@intellectdesign.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at errnoException (dns.js:28:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
