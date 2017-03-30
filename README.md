@@ -5,12 +5,14 @@
 $ npm install mask-sensitive-words --save
 
 //yarn
-yarn add mask-sensitive-words
+$ yarn add mask-sensitive-words
 ```
 #Examples
 
 ``` javascript
 const {maskSensitiveWords} = require('mask-sensitive-words');
+//ES2015 syntax
+import {maskSensitiveWords} from 'mask-sensitive-words';
 
 
 const sentence = 'The name of Scorpio will be Microsoft XBOXTWO. XBOXTWO will be released soon';

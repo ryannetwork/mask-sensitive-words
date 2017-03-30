@@ -18,7 +18,8 @@
         "dev": "watch 'npm run build' src",
         "test": "jest",
         "test:watch": "npm test -- --watch",
-        "prepublish": "npm run build"
+        "prepublish": "npm run build",
+        "release": "np"
     },
     "babel": {
         "presets": [
